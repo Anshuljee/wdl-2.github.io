@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function showAlert() {
+            alert("Survey submitted");
+        }
+    </script>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend style="text-align: center;">Survey</legend>
+            <label for="name"> Name<input type="text" placeholder="Name" id="name" required></label>
+            <br>
+            <br>
+            <label for="address"> Address</label><input type="text" placeholder="address" required>
+            <br><br>
+            <label for="date">Date Of Birth:<input type="date" name="En" id="date" required></label>
+            <br>
+            <br>
+           <label for="gender">Choose a gender<input type="radio" name="gender" value="Male" required>Male</label>
+           <input type="radio" name="gender" value="Female">Female
+           <input type="radio" name="gender" value="other">Other</label>
+
+           <br>
+           <br>
+           <label for="work"> Profession <input type="text" name="" id="work" placeholder=" Profession." required></label> 
+           <br><br>
+           <label for="email">Email address <input type="email" name="" id="" placeholder=" Email" required></label> 
+           <br><br>
+           <label for="number"> Phone Number.<input type="text" name="" id="" placeholder="Phone no." required></label>
+           <br><br>
+           <button onclick="showAlert()">Submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>
